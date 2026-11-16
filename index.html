@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ubuntu News Tech · Tecnologias Emergentes em Angola</title>
+<link rel="icon" href="img/favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="prog"></div>
+
+<header><div class="wrap">
+<a class="logo" href="#hero" aria-label="Ubuntu News Tech"><img src="img/logo-icon.png" alt="Ubuntu News Tech"><span>UBUNTU NEWS <b>TECH</b></span></a>
+<nav id="nav"><ul>
+<li><a href="#sobre">Início</a></li><li><a href="#ia">Inteligência Artificial</a></li><li><a href="#dados">Dados</a></li><li><a href="#burlas">Burlas</a></li><li><a href="#ciber">Cibersegurança</a></li><li><a href="#hiper">Hipertexto</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#contacto">Denunciar</a></li></ul></nav>
+<div class="hr"><button id="th" aria-label="Tema">◐</button><button id="bg" aria-label="Menu">☰</button></div>
+</div></header>
+
+<main>
+<section id="hero"><canvas id="cv"></canvas><div class="wrap hero-in" style="width:100%"><div>
+<div class="slides" id="slides">
+<div class="sl on"><span class="tag">Ubuntu News Tech · Angola</span><h1>Tecnologias emergentes ao serviço de <em>todos nós</em></h1><p class="lead">“Eu sou porque nós somos.” Informação clara sobre IA, burlas digitais e cibersegurança para a realidade angolana.</p><a class="btn" href="#sobre">Começar</a></div>
+<div class="sl"><span class="tag">Inteligência Artificial</span><h1>A IA já está no teu <em>telemóvel</em></h1><p class="lead">Assistentes, tradutores, bancos e redes sociais usam IA todos os dias. Percebe como funciona.</p><a class="btn" href="#ia">Explorar a IA</a></div>
+<div class="sl"><span class="tag">Alerta</span><h1>Burlas digitais: <em>não caias!</em></h1><p class="lead">Falsos prémios, mobile money, WhatsApp clonado. Aprende a reconhecer e a denunciar.</p><a class="btn" href="#burlas">Ver alertas</a><a class="btn o" href="#ciber">Proteger-me</a></div>
+</div>
+<div class="dots" id="dots"></div></div><div class="hero-logo"><img src="img/logo-full.png" alt="Logótipo Ubuntu News Tech"></div></div></section>
+
+<section id="sobre" class="alt"><div class="wrap">
+<div class="rv"><span class="tag">Texto · Quem somos</span><h2>O que são tecnologias emergentes?</h2>
+<p class="lead">São inovações recentes com potencial para transformar a economia e a sociedade: inteligência artificial, Internet das Coisas, blockchain, 5G, computação em nuvem e robótica. Em Angola, o avanço da banca móvel, da fibra óptica e dos cabos submarinos aproxima cada vez mais pessoas do mundo digital, mas também as expõe a novos riscos.</p></div>
+<div class="stats" id="stats"></div>
+<div class="grid" id="tech"></div></div></section>
+
+<section id="ia"><div class="wrap">
+<div class="rv"><span class="tag">Inteligência Artificial</span><h2>IA: oportunidades e cuidados</h2>
+<p class="lead">Desliza pelos cartões ou usa as setas.</p></div>
+<div class="car rv" id="car"><div class="trk" id="trk"></div></div>
+<div class="ctl"><button id="pv" aria-label="Anterior">←</button><button id="nx" aria-label="Seguinte">→</button></div></div></section>
+
+<section id="dados" class="alt"><div class="wrap">
+<div class="rv"><span class="tag">Gráficos</span><h2>Ameaças digitais em números</h2></div>
+<div class="charts">
+<div class="card rv l" id="bars"></div>
+<div class="card rv r"><b>Distribuição de burlas reportadas</b>
+<svg class="donut" viewBox="0 0 200 200" width="220" style="display:block;margin:14px auto"><g id="dn" transform="rotate(-90 100 100)"></g></svg><div class="leg" id="lg2"></div></div></div>
+<p class="note">Valores ilustrativos para demonstração do design. Substituir por dados oficiais (INACOM, INE, BNA) via API.</p></div></section>
+
+<section id="burlas"><div class="wrap split">
+<div class="rv l"><span class="tag red">Alerta</span><h2>Burlas mais comuns em Angola</h2><p class="lead">Se alguém te pressiona, promete dinheiro fácil ou pede códigos, <b>pára e desconfia</b>.</p><div class="tl" style="margin-top:30px">
+<div><b>1. Receber contacto inesperado</b><br><span class="lead">SMS, chamada ou WhatsApp.</span></div><div><b>2. Criam urgência</b><br><span class="lead">“A conta será bloqueada hoje!”</span></div><div><b>3. Pedem dados ou dinheiro</b><br><span class="lead">PIN, código SMS, transferência.</span></div></div></div>
+<div class="rv r" id="burl"></div></div></section>
+
+<section id="ciber" class="alt"><div class="wrap split">
+<div class="rv l"><span class="tag">Cibersegurança</span><h2>Testa a tua palavra-passe</h2>
+<input id="pw" type="text" placeholder="Escreve uma palavra-passe de teste" autocomplete="off"><div class="meter"><b id="mt"></b></div><p id="pl" class="lead"></p>
+<p class="note">Nada é enviado nem guardado. A análise acontece no teu dispositivo.</p></div>
+<div class="card rv r chk"><b>Lista de protecção</b><div id="chk"></div><div class="meter"><b id="cm" style="background:var(--cy)"></b></div></div></div></section>
+
+<section id="hiper"><div class="wrap">
+<div class="rv"><span class="tag">Pesquisa</span><h2>Hipertexto e hipermédia</h2></div>
+<div class="grid"><div class="card rv"><h3>Hipertexto</h3><p class="lead">Texto com ligações (<i>links</i>) que permitem saltar para outros textos de forma não linear. É a base da Web: cada <a href="#ia" style="color:var(--ac)">ligação</a> é um caminho.</p></div>
+<div class="card rv" style="--i:1"><h3>Hipermédia</h3><p class="lead">Extensão do hipertexto que liga também imagens, gráficos, áudio e vídeo. Este site é hipermédia: texto, gráficos e imagens ligados entre si.</p></div></div></div></section>
+
+<section id="galeria" class="alt"><div class="wrap">
+<div class="rv"><span class="tag">Imagens</span><h2>Galeria visual</h2></div>
+<div class="gal" id="gal"></div></div></section>
+
+<section id="contacto"><div class="wrap split">
+<div class="rv l"><span class="tag red">Comunidade</span><h2>Denuncia uma burla</h2><p class="lead">Ajuda-nos a alertar outros. Em caso de crime, contacta também a Polícia Nacional / SIC e o teu banco ou operadora.</p></div>
+<form class="card rv r" id="fm"><label>Tipo<select name="tipo" id="ft"></select></label><label>Descrição<textarea name="desc" rows="4" required minlength="10"></textarea></label><label>Província<input name="prov" placeholder="Ex.: Luanda"></label><button class="btn" type="submit">Enviar alerta</button></form></div></section>
+</main>
+
+<footer><div class="wrap"><div class="foot-logo"><img src="img/logo-full.png" alt="Ubuntu News Tech"></div><div>© 2026 Ubuntu News Tech · Luanda, Angola<br></div></div></footer>
+<div id="toast"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
